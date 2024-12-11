@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\viewmodels\\common\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\viewmodels\\common\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\dataaccess\\uniqlodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\furqan service\\desktop\\turkancode\\uniqlomvc\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF6FE96-E425-4768-A193-671BDD07FBBD}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "UniqloMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\appsettings.json*",
+              "RelativeToolTip": "UniqloMVC\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T07:31:47.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\ViewModels\\Common\\HomeVM.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\ViewModels\\Common\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\ViewModels\\Common\\HomeVM.cs",
+              "RelativeToolTip": "UniqloMVC\\ViewModels\\Common\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:41:51.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T19:23:17.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:17:02.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T19:09:14.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UniqloMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:01:05.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAgwJMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:18:48.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:20:01.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UniqloMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:10:54.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T19:05:50.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UniqloDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\DataAccess\\UniqloDbContext.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\DataAccess\\UniqloDbContext.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\DataAccess\\UniqloDbContext.cs",
+              "RelativeToolTip": "UniqloMVC\\DataAccess\\UniqloDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:57:54.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T14:50:58.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Program.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Program.cs",
+              "RelativeToolTip": "UniqloMVC\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T21:19:49.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T14:50:55.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:50:47.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T14:50:57.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T09:11:40.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:50:45.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Home\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Shop.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Home\\Shop.cshtml",
+              "ViewState": "AgIAAGABAAAAAAAAAAAkwG4BAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T14:30:38.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Models\\Slider.cs",
+              "RelativeToolTip": "UniqloMVC\\Models\\Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:58:18.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAAAH8BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:11:21.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:17:15.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T09:11:05.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
