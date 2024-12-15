@@ -22,7 +22,10 @@ namespace UniqloMVC.Models
         public int Discount { get; set; }
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
-        public ICollection<Tag> Tags { get; set; }  
+        public ICollection<Tag> Tags { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+
+        public ICollection<ProductRating>? Ratings { get; set; }
 
         public static implicit operator Product(ProductCreateVM vm)
         {

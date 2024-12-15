@@ -1,15 +1,20 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using System.Net;
+using System.Net.Mail;
 using UniqloMVC.Enums;
+using UniqloMVC.Helpers;
 using UniqloMVC.Models;
 using UniqloMVC.ViewModels.Auths;
 
 namespace UniqloMVC.Controllers
 {
-    public class AccountController(UserManager<User> _userManager,SignInManager<User> _signInManager) : Controller
+    public class AccountController(UserManager<User> _userManager,SignInManager<User> _signInManager,IOptions<SmtpOptions> opts) : Controller
     {
+       readonly SmtpOptions _smtpOpt = opts.Value;
         bool isAuthenticated=>User.Identity?.IsAuthenticated??false;
        
         public IActionResult Register()
@@ -106,6 +111,22 @@ namespace UniqloMVC.Controllers
             return RedirectToAction(nameof(Login));   
         }
 
+        public async Task<IActionResult> Test()
+        {
+            SmtpClient smtp = new();
+            smtp.Host = _smtpOpt.Host;
+            smtp.Port = _smtpOpt.Port;
+            smtp.EnableSsl = true;
+            smtp.Credentials = new NetworkCredential(_smtpOpt.Username, _smtpOpt.Password);
+            MailAddress from = new MailAddress(_smtpOpt.Username, "Azərbaycan Respublikası Təhsil Nazirliyi");
+            MailAddress to = new("turkan.dadashoffa@gmail.com");
+            MailMessage msg = new MailMessage(from, to);
+            msg.Subject = "Xəbərdarlıq!";
+            msg.Body = "Test";
+            msg.IsBodyHtml = true;
+            smtp.Send(msg);
+            return Ok("Alindi");
+        }
     }
 }
     

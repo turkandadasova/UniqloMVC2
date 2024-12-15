@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using UniqloMVC.DataAccess;
 using UniqloMVC.Extensions;
+using UniqloMVC.Helpers;
 using UniqloMVC.Models;
 
 namespace UniqloMVC
@@ -36,11 +37,18 @@ namespace UniqloMVC
 
             });
 
+            SmtpOptions opt = new();
+            builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
+
+            //builder.Services.AddSession();
+
             var app = builder.Build();
 
 
 
             app.UseUserSeed();
+           // app.UseSession();
+            
             app.UseStaticFiles();
 
 

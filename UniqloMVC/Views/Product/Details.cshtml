@@ -1,6 +1,7 @@
 ﻿@model Product
 @{
     ViewData["Title"] = Model.Name;
+    var rating = Model.Ratings.Count > 0 ? Model.Ratings.Average(x => x.Raiting) : 0;
 }
 
 <!-- Start Bradcaump area -->
@@ -65,15 +66,24 @@
                     <div class="pro__detl__title">
                         <h2>@Model.Name</h2>
                     </div>
+                    @if(User.Identity.IsAuthenticated)
+                    {
+                        
+                        <form asp-action="Rating" method="get">
+                            <input name="productId" value="@Model.Id" type="hidden" />
+                            <input name="rating" value="@ViewBag.Rating" type="number" max="5" min="1" />
+                            <button class=" btn">Rate!</button>
+                        </form>
+                    }
                     <div class="pro__dtl__rating">
                         <ul class="pro__rating">
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
-                            <li><span class="ti-star"></span></li>
+                            @for(int i=0; i<Math.Ceiling(rating);i++)
+                            {
+                             <li><span class="ti-star"></span></li>                                
+                            }
+                            (@rating)
                         </ul>
-                        <span class="rat__qun">(Based on 0 Ratings)</span>
+                        <span class="rat__qun">(Based on @Model.Ratings.Count Ratings)</span>
                     </div>
                     <div class="pro__details">
                         <p>@Model.Description </p>
@@ -117,6 +127,33 @@
                              <li><a href="https://plus.google.com/" target="_blank"><i class="zmdi zmdi-google-plus"></i></a></li>
                          </ul>
                      </div> *@
+
+                    <div class="our-product-comment mt--20">
+                        <div class="product-comment-inner">
+                            <h2 class="section-title-2">COMMENTS (@Model.Comments.Count)</h2>
+                            <!-- Start Single Comment -->
+                            <div class="single-product-comment">
+                                <div class="product-comment-thumb">
+                                    <img src="images/comment/1.jpg" alt="comment images">
+                                </div>
+                                <div class="product-comment-details">
+                                    <div class="comment-title-date">
+                                        <h2><a href="#">@Model.Name</a></h2>
+                                        <div class="reply">
+                                            <p>14 Sep 2022 / <a href="#">REPLY</a></p>
+                                        </div>
+                                    </div>
+                                    <p>@Model.Comments</p>
+                                </div>
+                            </div>
+                            <!-- End Single Comment -->
+                           
+                           
+                        </div>
+                    </div>
+                    <!-- End Blog Comment Area -->
+
+
                 </div>
             </div>
         </div>

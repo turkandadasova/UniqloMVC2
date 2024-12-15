@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kjM7nLTB+rfTQeY/Uu481vn9YJM/xPH3/u2+17F2zI0=",
+  "Hash": "+AowX8dPnXkdlYGIWMyOkLsODS7HgTQ/u9WqRlEhFsE=",
   "Source": "UniqloMVC",
   "BasePath": "_content/UniqloMVC",
   "Mode": "Default",
@@ -39575,12 +39575,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\350gc2kn.yc4.jpeg",
+      "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\bmp4wge1.k31.jpg",
       "SourceId": "UniqloMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\",
       "BasePath": "_content/UniqloMVC",
-      "RelativePath": "imgs/products/350gc2kn.yc4.jpeg",
+      "RelativePath": "imgs/products/bmp4wge1.k31.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39591,26 +39591,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\products\\350gc2kn.yc4.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\cmqkwxsb.snl.jpeg",
-      "SourceId": "UniqloMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\",
-      "BasePath": "_content/UniqloMVC",
-      "RelativePath": "imgs/products/cmqkwxsb.snl.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\products\\cmqkwxsb.snl.jpeg"
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\bmp4wge1.k31.jpg"
     },
     {
       "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\mrw5xiej.qdv.webp",
@@ -39744,6 +39725,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\products\\u0o3thpe.vwe.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\uzalxcjt.ris.jpeg",
+      "SourceId": "UniqloMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\",
+      "BasePath": "_content/UniqloMVC",
+      "RelativePath": "imgs/products/uzalxcjt.ris.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\uzalxcjt.ris.jpeg"
     },
     {
       "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\wv43pfba.hwa.jpg",

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UniqloMVC.DataAccess;
 
@@ -11,9 +12,11 @@ using UniqloMVC.DataAccess;
 namespace UniqloMVC.Migrations
 {
     [DbContext(typeof(UniqloDbContext))]
-    partial class UniqloDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241215162342_CreatedCommentsTable")]
+    partial class CreatedCommentsTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -281,34 +284,6 @@ namespace UniqloMVC.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("UniqloMVC.Models.ProductComment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Comment")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("ProductComment");
-                });
-
             modelBuilder.Entity("UniqloMVC.Models.ProductRating", b =>
                 {
                     b.Property<int>("Id")
@@ -555,21 +530,6 @@ namespace UniqloMVC.Migrations
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("UniqloMVC.Models.ProductComment", b =>
-                {
-                    b.HasOne("UniqloMVC.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId");
-
-                    b.HasOne("UniqloMVC.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("Product");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("UniqloMVC.Models.ProductRating", b =>
