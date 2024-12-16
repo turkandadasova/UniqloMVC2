@@ -188,11 +188,15 @@
                     <div class="pro__detl__title">
                         <h2>@Model.Name</h2>
                     </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
                     <form asp-action="Rating" method="get">
                         <input name="ProductId" value="@Model.Id" type="hidden" />
                         <input name="rating" value="@ViewBag.Rating" type="number" min="1" max="5" />
                         <button type="submit" class="btn btn-link">Rate</button>
                     </form>
+                        
+                    }
                     <div class="pro__dtl__rating">
                         <ul class="pro__rating">
                             @for (int i = 0; i < Math.Ceiling(rating); i++)
@@ -308,11 +312,11 @@
                             <!-- End Single Review -->
 
                         </div>
-                        <!-- Start RAting Area -->
-                        <div class="rating__wrap">
-                            <h2 class="rating-title">Write  A review</h2>
-                        </div>
-                        <!-- End RAting Area -->
+                         <!-- Start RAting Area -->
+                         <div class="rating__wrap">
+                             <h2 class="rating-title">Write  A review</h2>
+                         </div>
+                         <!-- End RAting Area -->
                         <div class="review__box">
                             @if (User.Identity!.IsAuthenticated)
                             {
