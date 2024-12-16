@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using UniqloMVC.DataAccess;
+using UniqloMVC.ViewModels.Basket;
 
 namespace UniqloMVC.Controllers
 {
@@ -16,8 +17,19 @@ namespace UniqloMVC.Controllers
         {
             //if(!await _context.Products.AnyAsync(x=>x.Id==id))
             //    return NotFound();
-           var basketItems = JsonSerializer.Deserialize<List<int>>(Request.Cookies["basket"] ?? "[]");
-            basketItems.Add(id);
+           var basketItems = JsonSerializer.Deserialize<List<BasketProductItemVM>>(Request.Cookies["basket"] ?? "[]");
+            var item = basketItems.FirstOrDefault(x=>x.Id==id);
+            if (item==null)
+            {
+                item = new BasketProductItemVM
+                {
+                    Id = id,
+                    Count = 0,
+                };
+                basketItems.Add(item);
+            }
+                item.Count++;
+
             Response.Cookies.Append("basket",JsonSerializer.Serialize(basketItems));
             return Ok();
            

@@ -144,14 +144,14 @@
                                     <div class="product foo">
                                         <div class="product__inner">
                                             <div class="pro__thumb">
-                                                <a href="#">
-                                                    <img src="../imgs/products/@item.ImageUrl" alt="product images">
+                                                <a asp-action="Details" asp-controller="Product" asp-route-id="@item.Id">
+                                                    <img  src="../imgs/products/@item.ImageUrl" alt="product images">
                                                 </a>
                                             </div>
                                             <div class="product__hover__info">
                                                 <ul class="product__action">
-                                                    <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a></li>
-                                                    <li><a title="Add TO Cart" href="cart.html"><span class="ti-shopping-cart"></span></a></li>
+                                                    <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" ><span class="ti-plus"></span></a></li>
+                                                    <li><a title="Add TO Cart" asp-controller="Basket" asp-action="Add" asp-route-id="@item.Id" ><span class="ti-shopping-cart"></span></a></li>
                                                 </ul>
                                             </div>
                                             <div class="add__to__wishlist">

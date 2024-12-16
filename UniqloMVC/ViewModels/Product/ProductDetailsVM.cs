@@ -8,11 +8,10 @@ namespace UniqloMVC.ViewModels.Product
         public string Name { get; set; } = null!;
         [MaxLength(512)]
         public string Description { get; set; } = null!;
-        public IFormFile CoverFile { get; set; } = null!;
+        public string CoverFile { get; set; } = null!;
         [Range(0, int.MaxValue)]
         public int Quantity { get; set; }
-        //[DataType("decimal(18,2)")]
-        //public decimal CostPrice { get; set; }
+        
         [DataType("decimal(18,2)")]
         public decimal SellPrice { get; set; }
         [Range(0, 100)]

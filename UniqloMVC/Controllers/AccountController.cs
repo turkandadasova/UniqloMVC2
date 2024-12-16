@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.Net;
 using System.Net.Mail;
@@ -12,16 +13,17 @@ using UniqloMVC.ViewModels.Auths;
 
 namespace UniqloMVC.Controllers
 {
-    public class AccountController(UserManager<User> _userManager,SignInManager<User> _signInManager,IOptions<SmtpOptions> opts) : Controller
+    public class AccountController(UserManager<User> _userManager, SignInManager<User> _signInManager, IOptions<SmtpOptions> opts) : Controller
     {
-       readonly SmtpOptions _smtpOpt = opts.Value;
-        bool isAuthenticated=>User.Identity?.IsAuthenticated??false;
-       
+        readonly SmtpOptions _smtpOpt = opts.Value;
+
+        bool isAuthenticated => User.Identity?.IsAuthenticated ?? false;
+
         public IActionResult Register()
-        {            
+        {
             return View();
         }
-                        
+
         [HttpPost]
         public async Task<IActionResult> Register(UserCreateVM vm)
         {
@@ -64,39 +66,42 @@ namespace UniqloMVC.Controllers
         }
 
 
+
+
+
         public IActionResult Login()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVM vm,string? returnUrl=null)
+        public async Task<IActionResult> Login(LoginVM vm, string? returnUrl = null)
         {
-            if(!ModelState.IsValid) return View();
+            if (!ModelState.IsValid) return View();
             User user = null;
-            if(vm.UserNameOrEmail.Contains('@')) user= await _userManager.FindByEmailAsync(vm.UserNameOrEmail);
+            if (vm.UserNameOrEmail.Contains('@')) user = await _userManager.FindByEmailAsync(vm.UserNameOrEmail);
             else
-                user = await _userManager.FindByNameAsync(vm.UserNameOrEmail);  
+                user = await _userManager.FindByNameAsync(vm.UserNameOrEmail);
 
-            if(user is null)
+            if (user is null)
             {
-                ModelState.AddModelError("","username or password is wrong");
+                ModelState.AddModelError("", "username or password is wrong");
                 return View();
             }
-           var result = await _signInManager.PasswordSignInAsync(user,vm.Password, vm.RememberMe,true);
-            if(!result.Succeeded)
+            var result = await _signInManager.PasswordSignInAsync(user, vm.Password, vm.RememberMe, true);
+            if (!result.Succeeded)
             {
                 if (result.IsNotAllowed)
                     ModelState.AddModelError("", "username or password is wrong");
-                if(!result.IsLockedOut)
-                    ModelState.AddModelError("","Wait until" + user.LockoutEnd.Value.ToString("yyyy-MM-dd HH:mm:ss"));
-               return View();
+                if (!result.IsLockedOut)
+                    ModelState.AddModelError("", "Wait until" + user.LockoutEnd.Value.ToString("yyyy-MM-dd HH:mm:ss"));
+                return View();
             }
 
             if (string.IsNullOrEmpty(returnUrl))
             {
-                if(await _userManager.IsInRoleAsync(user,"Admin"))
+                if (await _userManager.IsInRoleAsync(user, "Admin"))
                 {
-                    return RedirectToAction("Index", new {Controller="Dashboard",Area="Admin"});
+                    return RedirectToAction("Index", new { Controller = "Dashboard", Area = "Admin" });
                 }
 
                 return RedirectToAction("Index", "Home");
@@ -104,13 +109,14 @@ namespace UniqloMVC.Controllers
             return LocalRedirect(returnUrl);
         }
 
-        [Authorize]
+    
+
+    [Authorize]
         public async Task<IActionResult> LogOut()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction(nameof(Login));   
+            return RedirectToAction(nameof(Login));
         }
-
         public async Task<IActionResult> Test()
         {
             SmtpClient smtp = new();
@@ -127,6 +133,7 @@ namespace UniqloMVC.Controllers
             smtp.Send(msg);
             return Ok("Alindi");
         }
+
     }
 }
     
