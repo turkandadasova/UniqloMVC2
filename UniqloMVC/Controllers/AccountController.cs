@@ -117,22 +117,41 @@ namespace UniqloMVC.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(Login));
         }
+        //public async Task<IActionResult> Test()
+        //{
+        //    SmtpClient smtp = new();
+        //    smtp.Host = _smtpOpt.Host;
+        //    smtp.Port = _smtpOpt.Port;
+        //    smtp.EnableSsl = true;
+        //    smtp.Credentials = new NetworkCredential(_smtpOpt.Username, _smtpOpt.Password);
+        //    MailAddress from = new MailAddress(_smtpOpt.Username, "Anar Balacayev");
+        //    MailAddress to = new("turkan.dadashoffa@gmail.com");
+        //    MailMessage msg = new MailMessage(from, to);
+        //    msg.Subject = "Duyuru";
+        //    msg.Body = "Əziz(şübheli) qrupum BP215,sabah Ülvi müəllimlə fifaya gedirik,dərs yoxdu. İstəyən qalıb əziz və fav tələbəm Türkanın Uniqlosunu yaza bilər:) (Bu mail barədə özümə yazıb narahat eləmiyin. 100%, ən az bulvardakı balina qədər realdı bu mail)";
+        //    msg.IsBodyHtml = true;
+        //    smtp.Send(msg);
+        //    return Ok("Alindi");
+        //}
+
+
         public async Task<IActionResult> Test()
         {
             SmtpClient smtp = new();
-            smtp.Host = _smtpOpt.Host;
-            smtp.Port = _smtpOpt.Port;
+            smtp.Host = "smtp.gmail.com";
+            smtp.Port = 587;
             smtp.EnableSsl = true;
-            smtp.Credentials = new NetworkCredential(_smtpOpt.Username, _smtpOpt.Password);
-            MailAddress from = new MailAddress(_smtpOpt.Username, "Azərbaycan Respublikası Təhsil Nazirliyi");
-            MailAddress to = new("turkan.dadashoffa@gmail.com");
+            smtp.Credentials = new NetworkCredential("turkanyd-bp215@code.edu.az", "izal kfmn itce qvlh");
+            MailAddress from = new MailAddress("turkanyd-bp215@code.edu.az", "Anar Balacayev");
+            MailAddress to = new("togrul.mehdiyev05@gmail.com");
             MailMessage msg = new MailMessage(from, to);
-            msg.Subject = "Xəbərdarlıq!";
-            msg.Body = "Test";
+            msg.Subject = "Duyuru";
+            msg.Body = "Əziz qrupum BP215,sabah Ülvi müəllimlə fifaya gedirik,dərs yoxdu. İstəyən qalıb əziz və fav tələbəm Türkanın Uniqlosunu yaza bilər:) (Bu mail barədə özümə yazıb narahat eləmiyin. 100%, ən az bulvardakı balina qədər realdı bu mail)";
             msg.IsBodyHtml = true;
             smtp.Send(msg);
             return Ok("Alindi");
         }
+
 
     }
 }

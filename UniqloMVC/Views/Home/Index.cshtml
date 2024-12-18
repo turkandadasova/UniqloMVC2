@@ -4,6 +4,9 @@
     Layout = "_Layout";
     ViewData["Title"] = "Home";
 }
+@section styles{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
 
 <!-- Start Slider Area -->
 <div class="slider__container slider--four">
@@ -150,13 +153,11 @@
                                             </div>
                                             <div class="product__hover__info">
                                                 <ul class="product__action">
-                                                    <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" ><span class="ti-plus"></span></a></li>
-                                                    <li><a title="Add TO Cart" asp-controller="Basket" asp-action="Add" asp-route-id="@item.Id" ><span class="ti-shopping-cart"></span></a></li>
+                                                    @* <li><a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" ><span class="ti-plus"></span></a></li> *@
+                                                    <li prod-id="@item.Id" style="color:palevioletred;cursor:pointer" class="add-cart"> ><span class="ti-shopping-cart"></span></li>
                                                 </ul>
                                             </div>
-                                            <div class="add__to__wishlist">
-                                                <a data-bs-toggle="tooltip" title="Add To Wishlist" class="add-to-cart" href="wishlist.html"><span class="ti-heart"></span></a>
-                                            </div>
+                                           
                                         </div>
                                         <div class="product__details">
                                             <h2><a href="product-details.html">@item.Name</a></h2>
@@ -274,15 +275,67 @@
     </div>
     <!-- END Modal -->
 </div>
-<!-- END QUICKVIEW PRODUCT -->
-<!-- Placed js at the end of the document so the pages load faster -->
-<!-- jquery latest version -->
-<script src="~/assets/js/vendor/jquery-3.6.0.min.js"></script>
-<script src="~/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-<script src="~/assets/js/vendor/jquery.waypoints.js"></script>
-<!-- Bootstrap Framework js -->
-<script src="~/assets/js/bootstrap.bundle.min.js"></script>
-<!-- All js plugins included in this file. -->
-<script src="~/assets/js/plugins.js"></script>
-<!-- Main js file that contents all jQuery plugins activation. -->
-<script src="~/assets/js/main.js"></script>
+
+@section scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.add-cart').click(function(){
+            fetch('/Basket/Add/' + $(this).attr('prod-id')).then(x => {
+                if (x.ok)
+                {
+                    Command: toastr["success"]("Mehsul sebete elave olundu!")
+
+                    toastr.options = {
+                        "closeButton": false,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": false,
+                        "positionClass": "toast-top-right",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "3000",
+                        "extendedTimeOut": "1000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    }
+
+                }
+            }
+            );
+        })
+    </script>
+
+    <script>
+        $('.Delete').click(function () {
+            fetch('/Basket/Delete/' + $(this).attr('prod-id')).then(x => {
+                if (x.ok) {
+                    Command: toastr["success"]("Mehsul sebetden silindi!")
+
+                    toastr.options = {
+                        "closeButton": false,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": false,
+                        "positionClass": "toast-top-right",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "3000",
+                        "extendedTimeOut": "1000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    }
+
+                }
+            }
+            );
+        })
+    </script>
+}

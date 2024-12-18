@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+AowX8dPnXkdlYGIWMyOkLsODS7HgTQ/u9WqRlEhFsE=",
+  "Hash": "pm7B7IgEFQ3RBGrKvIbna3FbAX5n/iE9zhAMArwXz4k=",
   "Source": "UniqloMVC",
   "BasePath": "_content/UniqloMVC",
   "Mode": "Default",
@@ -39592,25 +39592,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\products\\bmp4wge1.k31.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\mrw5xiej.qdv.webp",
-      "SourceId": "UniqloMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\",
-      "BasePath": "_content/UniqloMVC",
-      "RelativePath": "imgs/products/mrw5xiej.qdv.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\products\\mrw5xiej.qdv.webp"
     },
     {
       "Identity": "C:\\Users\\Furqan Service\\Desktop\\turkancode\\UniqloMVC\\wwwroot\\imgs\\products\\q11pecum.o35.jpg",

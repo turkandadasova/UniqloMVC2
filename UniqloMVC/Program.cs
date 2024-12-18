@@ -15,7 +15,7 @@ namespace UniqloMVC
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<UniqloDbContext>(opt =>
-            {
+                {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql"));
             });
 
@@ -37,8 +37,8 @@ namespace UniqloMVC
 
             });
 
-            SmtpOptions opt = new();
-            builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
+            //SmtpOptions opt = new();
+            //builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection("Smtp"));
 
             //builder.Services.AddSession();
 
